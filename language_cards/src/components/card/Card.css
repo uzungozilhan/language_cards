@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: violet;
+    width: 550px;
+    height: auto;
+}
+
+.card-header{
+    margin-inline: unset;
+    text-align: center;
+    width: 100%;
+    font-family: 'Courier Prime', monospace;
+}
+.card-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    border-radius: 15px;
+    width: 230px;
+    height: 250px;    
+    margin: 10px;
+    background-color: wheat;
+    
+}
+.card-info:hover{
+    box-shadow:2px 2px 8px 5px rgb(83, 82, 82);
+    cursor: pointer;
+}
+
+.card-img-and-name{
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+
+
+.card-image{
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    margin: auto;
+}
+
+.card-info:hover .card-image{
+    height: 130px;
+    width: 130px;
+    
+}
+
+.card-name{
+    text-align: center;
+    font-family: 'Courier Prime', monospace;
+}
+.card-options {
+    font-family: 'Courier Prime', monospace;
+    
+    /* position: absolute; */
+}
+.card-over{
+    position: absolute;
+    line-height: 2;
+}
