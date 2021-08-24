@@ -3,11 +3,12 @@
 .card-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    /* align-items: center; */
+    justify-content: space-evenly;
+    align-items: center;
     background-color: violet;
     width: 550px;
     height: auto;
+    background: linear-gradient(40deg, orange 50%, #6CB4EE 50%,#6CB4EE 60%,orange 60%);
 }
 
 .card-header{
@@ -31,6 +32,7 @@
 .card-info:hover{
     box-shadow:2px 2px 8px 5px rgb(83, 82, 82);
     cursor: pointer;
+    transition: all 0.4s ease;
 }
 
 .card-img-and-name{
@@ -54,9 +56,8 @@
 }
 
 .card-info:hover .card-image{
-    height: 130px;
-    width: 130px;
-    
+    transform: scale(1.2);
+    transition: all 0.8s ease;
 }
 
 .card-name{

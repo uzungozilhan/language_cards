@@ -2,6 +2,11 @@
     background-image: linear-gradient(to right, #f3b50c 0%, #ebcb74 100%);
     height: 100%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
 }
 
 

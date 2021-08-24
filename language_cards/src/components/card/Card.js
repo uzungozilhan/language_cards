@@ -33,15 +33,10 @@ const Card = () => {
               <li>{ card.options[0]}</li>
               <li>{ card.options[1]}</li>
               <li>{ card.options[2]}</li>
-            </ul>
-                 
-              </div>
+            </ul>                 
+          </div>
             </>
-)}
-
-
-
-            
+)}            
           </div>
         );
       })};
